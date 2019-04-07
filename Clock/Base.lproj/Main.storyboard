@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GurmukhiMN.ttc">
+            <string>GurmukhiMN-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Clock" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="haikei" translatesAutoresizingMaskIntoConstraints="NO" id="xW6-vO-cX3">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SUa-7T-mVw">
+                                <rect key="frame" x="94" y="114" width="76" height="107"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="76" id="J31-Zy-zMP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GurmukhiMN-Bold" family="Gurmukhi MN" pointSize="75"/>
+                                <color key="textColor" red="1" green="0.049190990994276818" blue="0.065045121041997001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d14-vr-29A">
+                                <rect key="frame" x="162" y="251" width="76" height="107"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="76" id="dtW-yF-itg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GurmukhiMN-Bold" family="Gurmukhi MN" pointSize="75"/>
+                                <color key="textColor" red="1" green="0.049190990994276818" blue="0.065045121041997001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGA-wJ-ovU">
+                                <rect key="frame" x="222" y="382" width="76" height="107"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN-Bold" family="Gurmukhi MN" pointSize="75"/>
+                                <color key="textColor" red="1" green="0.049190990994276818" blue="0.065045121041997001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t9e-w7-0Lp">
+                                <rect key="frame" x="153" y="382" width="76" height="107"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="76" id="E5I-s4-lft"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GurmukhiMN-Bold" family="Gurmukhi MN" pointSize="75"/>
+                                <color key="textColor" red="1" green="0.049190990994276818" blue="0.065045121041997001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jrJ-6w-PMR">
+                                <rect key="frame" x="28" y="116" width="76" height="107"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="107" id="QSc-dN-sW4"/>
+                                    <constraint firstAttribute="width" constant="76" id="Td6-yg-M88"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GurmukhiMN-Bold" family="Gurmukhi MN" pointSize="75"/>
+                                <color key="textColor" red="1" green="0.049190990994276818" blue="0.065045121041997001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p7b-H3-mdQ">
+                                <rect key="frame" x="94" y="251" width="76" height="107"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="76" id="QcG-uo-fiA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GurmukhiMN-Bold" family="Gurmukhi MN" pointSize="75"/>
+                                <color key="textColor" red="1" green="0.049190990994276818" blue="0.065045121041997001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text=":" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6SM-XS-ww5">
+                                <rect key="frame" x="246" y="253" width="77" height="97"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="97" id="cHf-l3-tAq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="85"/>
+                                <color key="textColor" red="1" green="0.043555007370637555" blue="0.11113316171514631" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text=":" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="svY-rB-Ebu">
+                                <rect key="frame" x="178" y="112" width="81" height="103.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="85"/>
+                                <color key="textColor" red="1" green="0.043555007370637555" blue="0.11113316171514631" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xW6-vO-cX3" firstAttribute="bottom" secondItem="qAP-EQ-Cdc" secondAttribute="bottom" id="1Dx-ZI-0aa"/>
+                            <constraint firstItem="qAP-EQ-Cdc" firstAttribute="trailing" secondItem="6SM-XS-ww5" secondAttribute="trailing" constant="36" id="1I0-H0-Y6b"/>
+                            <constraint firstItem="xW6-vO-cX3" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="1mi-JC-djH"/>
+                            <constraint firstItem="jrJ-6w-PMR" firstAttribute="leading" secondItem="qAP-EQ-Cdc" secondAttribute="leading" constant="28" id="3ry-ip-uH1"/>
+                            <constraint firstItem="qAP-EQ-Cdc" firstAttribute="trailing" secondItem="svY-rB-Ebu" secondAttribute="trailing" constant="98" id="5fd-Te-lAg"/>
+                            <constraint firstItem="qAP-EQ-Cdc" firstAttribute="trailing" secondItem="NGA-wJ-ovU" secondAttribute="trailing" constant="62" id="DXu-Lf-cMK"/>
+                            <constraint firstItem="SUa-7T-mVw" firstAttribute="firstBaseline" secondItem="svY-rB-Ebu" secondAttribute="firstBaseline" id="EBM-nu-Abb"/>
+                            <constraint firstItem="SUa-7T-mVw" firstAttribute="baseline" secondItem="svY-rB-Ebu" secondAttribute="baseline" id="FHe-i5-vVc"/>
+                            <constraint firstItem="jrJ-6w-PMR" firstAttribute="firstBaseline" secondItem="SUa-7T-mVw" secondAttribute="firstBaseline" id="IoI-Z2-BZf"/>
+                            <constraint firstItem="p7b-H3-mdQ" firstAttribute="baseline" secondItem="d14-vr-29A" secondAttribute="baseline" id="NJD-ST-Rtr"/>
+                            <constraint firstAttribute="trailing" secondItem="xW6-vO-cX3" secondAttribute="trailing" id="OJt-br-boA"/>
+                            <constraint firstItem="6SM-XS-ww5" firstAttribute="leading" secondItem="d14-vr-29A" secondAttribute="trailing" constant="8" symbolic="YES" id="QQN-Dt-TQg"/>
+                            <constraint firstItem="p7b-H3-mdQ" firstAttribute="leading" secondItem="qAP-EQ-Cdc" secondAttribute="leading" constant="94" id="QTs-Rc-jgP"/>
+                            <constraint firstItem="NGA-wJ-ovU" firstAttribute="leading" secondItem="t9e-w7-0Lp" secondAttribute="trailing" constant="8" symbolic="YES" id="RjI-nP-iDJ"/>
+                            <constraint firstItem="p7b-H3-mdQ" firstAttribute="top" secondItem="jrJ-6w-PMR" secondAttribute="bottom" constant="28" id="aCp-eB-557"/>
+                            <constraint firstItem="NGA-wJ-ovU" firstAttribute="top" secondItem="6SM-XS-ww5" secondAttribute="bottom" constant="29" id="aTW-Iu-HoY"/>
+                            <constraint firstItem="jrJ-6w-PMR" firstAttribute="top" secondItem="qAP-EQ-Cdc" secondAttribute="top" constant="96" id="bMp-80-MEF"/>
+                            <constraint firstItem="t9e-w7-0Lp" firstAttribute="top" secondItem="p7b-H3-mdQ" secondAttribute="bottom" constant="24" id="etG-zF-t9i"/>
+                            <constraint firstItem="d14-vr-29A" firstAttribute="centerY" secondItem="6SM-XS-ww5" secondAttribute="centerY" id="f45-4y-U5X"/>
+                            <constraint firstItem="t9e-w7-0Lp" firstAttribute="firstBaseline" secondItem="NGA-wJ-ovU" secondAttribute="firstBaseline" id="g2F-sh-ENm"/>
+                            <constraint firstItem="d14-vr-29A" firstAttribute="leading" secondItem="p7b-H3-mdQ" secondAttribute="trailing" constant="8" symbolic="YES" id="hax-LZ-6er"/>
+                            <constraint firstItem="t9e-w7-0Lp" firstAttribute="leading" secondItem="qAP-EQ-Cdc" secondAttribute="leading" constant="153" id="hqf-Q3-J9b"/>
+                            <constraint firstItem="jrJ-6w-PMR" firstAttribute="baseline" secondItem="SUa-7T-mVw" secondAttribute="baseline" id="nqU-gO-zlY"/>
+                            <constraint firstItem="t9e-w7-0Lp" firstAttribute="baseline" secondItem="NGA-wJ-ovU" secondAttribute="baseline" id="oMQ-e6-bFX"/>
+                            <constraint firstItem="qAP-EQ-Cdc" firstAttribute="bottom" secondItem="t9e-w7-0Lp" secondAttribute="bottom" constant="178" id="pXZ-o0-Z7v"/>
+                            <constraint firstItem="svY-rB-Ebu" firstAttribute="leading" secondItem="SUa-7T-mVw" secondAttribute="trailing" constant="8" symbolic="YES" id="qI7-h0-9iv"/>
+                            <constraint firstItem="xW6-vO-cX3" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="sby-VL-4AU"/>
+                            <constraint firstItem="p7b-H3-mdQ" firstAttribute="firstBaseline" secondItem="d14-vr-29A" secondAttribute="firstBaseline" id="yPc-cZ-1MM"/>
+                            <constraint firstItem="SUa-7T-mVw" firstAttribute="leading" secondItem="jrJ-6w-PMR" secondAttribute="trailing" constant="8" symbolic="YES" id="z7P-MK-hql"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qAP-EQ-Cdc"/>
+                    </view>
+                    <connections>
+                        <outlet property="hour1Label" destination="SUa-7T-mVw" id="YGR-B5-ihJ"/>
+                        <outlet property="hour2Label" destination="jrJ-6w-PMR" id="yQH-8q-M2n"/>
+                        <outlet property="minute1Label" destination="d14-vr-29A" id="bj7-V9-DZP"/>
+                        <outlet property="minute2Label" destination="p7b-H3-mdQ" id="mvn-mG-Eyc"/>
+                        <outlet property="second1Label" destination="NGA-wJ-ovU" id="qtJ-eC-GPW"/>
+                        <outlet property="second2Label" destination="t9e-w7-0Lp" id="7ek-DS-Myi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="223" y="391"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="haikei" width="1024" height="688"/>
+    </resources>
+</document>
